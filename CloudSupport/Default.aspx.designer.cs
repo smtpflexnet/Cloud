@@ -13,6 +13,24 @@ namespace CloudSupport {
     public partial class _Default {
         
         /// <summary>
+        /// ScriptManager control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.ScriptManager ScriptManager;
+        
+        /// <summary>
+        /// CurrentUserLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label CurrentUserLabel;
+        
+        /// <summary>
         /// Outage_RadioButtonList control.
         /// </summary>
         /// <remarks>
@@ -22,40 +40,22 @@ namespace CloudSupport {
         protected global::System.Web.UI.WebControls.RadioButtonList Outage_RadioButtonList;
         
         /// <summary>
-        /// ongoing_radio control.
+        /// userInputPanel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputRadioButton ongoing_radio;
+        protected global::System.Web.UI.UpdatePanel userInputPanel;
         
         /// <summary>
-        /// update_radio control.
+        /// OutageControl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputRadioButton update_radio;
-        
-        /// <summary>
-        /// recovery_radio control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputRadioButton recovery_radio;
-        
-        /// <summary>
-        /// OutageFrame control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlIframe OutageFrame;
+        protected global::CloudSupport.OutageControl OutageControl;
         
         /// <summary>
         /// Preview_RadioButtonList control.
@@ -67,39 +67,39 @@ namespace CloudSupport {
         protected global::System.Web.UI.WebControls.RadioButtonList Preview_RadioButtonList;
         
         /// <summary>
-        /// email_radio control.
+        /// generatedPreviewPanel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputRadioButton email_radio;
+        protected global::System.Web.UI.UpdatePanel generatedPreviewPanel;
         
         /// <summary>
-        /// kb_radio control.
+        /// EmailControl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputRadioButton kb_radio;
+        protected global::CloudSupport.Controls.EmailControl EmailControl;
         
         /// <summary>
-        /// excel_radio control.
+        /// KBControl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputRadioButton excel_radio;
+        protected global::CloudSupport.Controls.KBControl KBControl;
         
         /// <summary>
-        /// PreviewFrame control.
+        /// ExcelControl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlIframe PreviewFrame;
+        protected global::CloudSupport.Controls.ExcelControl ExcelControl;
     }
 }

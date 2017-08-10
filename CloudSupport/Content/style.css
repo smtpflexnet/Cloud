@@ -1,3 +1,12 @@
+#separator {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    bottom: 10%;
+    height: 100%
+    border-left: 5px solid red;
+}
+
 #generate {
     width: 200px;
     height: 200px;
@@ -72,7 +81,7 @@ div.tab {
 }
 
     /* Style the buttons inside the tab */
-    div.tab button {
+div.tab button {
         background-color: #005386 !important;
         float: left;
         border: none;
@@ -81,26 +90,26 @@ div.tab {
         /*padding: 14px 16px;*/
         transition: 0.3s;
         color: white;
-    }
+}
 
-        /* Change background color of buttons on hover */
-        div.tab button:hover {
+/* Change background color of buttons on hover */
+div.tab button:hover {
             background-color: #005386 !important; /*#ddd;*/
             opacity: 0.5;
-        }
+}
 
-        /* Create an active/current tablink class */
-        div.tab button.active {
+/* Create an active/current tablink class */
+div.tab button.active {
             background-color: #006eb2 !important; /*#ccc;*/
-        }
+}
 
 /* Style the tab content */
 .tabcontent {
     /*position: absolute;*/ /*ADDED*/
     display: none;
     /*padding: 6px 12px;*/
-    border: 3px solid #005386;
-    border-top: none;
+    /*border: 2px solid #005386;*/ /*HIDDEN 06/08/17*/
+    /*border-top: medium;*/
     width: 95%; /*auto;*/
     height: 95%; /*auto;*/
 }
@@ -209,29 +218,30 @@ h3 {
 .menuItem {
     margin: 4px;
     float: left;
+    width: 552px;
 }
 
 .menuItem td {
     float: left;
     width: 170px;
     margin: 4px;
-    background-color: #EFEFEF;
+    background-color: white;/*#EFEFEF;*/
     border-radius: 4px;
     border: 1px solid #D0D0D0;
     overflow: auto;
 }
 
-    .menuItem td label {
+.menuItem td label {
         text-align: center;
         font-size: 22px;
         /* padding: 13px 0px; */
         display: block;
-    }
+}
 
-    .menuItem td input {
+.menuItem td input {
         position: absolute;
         top: -20px;
-    }
+}
 
 .menuItem input:checked + label {
     background-color: #005386; /*#404040;*/
@@ -241,6 +251,14 @@ h3 {
 input[type="radio"] {
     display: none;
 }
+
+
+
+/*
+#refresh {
+    position: absolute !important; 
+    bottom:0 !important;
+}*/
 
 /*** OLD ***/
 /*
